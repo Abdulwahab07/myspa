@@ -12,7 +12,10 @@ import Index from "./components/index.vue";
 
 window.Vue = require('vue');
 
+
 Vue.use(vueRouter);
+
+
 
 const app = new Vue({
     el: '#app',
